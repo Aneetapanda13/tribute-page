@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #bbbbbb;
+}
+
+.play-button {
+    font-size: 2em;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.quote-section {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.quote-section p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.biography {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.biography h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.biography p {
+    font-size: 1em;
+    color: #bbbbbb;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #888888;
+    margin-top: 20px;
+}
+.profile-photo {
+    width: 100%;
+    margin-top: 20px;
+    border: 3px solid #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
